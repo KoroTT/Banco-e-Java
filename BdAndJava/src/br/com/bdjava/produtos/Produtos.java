@@ -46,5 +46,10 @@ public class Produtos {
 		this.custo = custo;
 	}
 	
+	@Override
+	public String toString() {
+		
+		return "id: "+getId()+" Descricao: "+getDescrição();
+	}
 	
 }
